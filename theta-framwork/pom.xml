@@ -7,8 +7,8 @@
     <artifactId>theta</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>theta-framwork</artifactId>
-  <name>theta-framwork</name>
+  <artifactId>theta-framework</artifactId>
+  <name>theta-framework</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

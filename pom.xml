@@ -39,6 +39,6 @@
 	</dependency>
   </dependencies>
   <modules>
-  	<module>theta-framwork</module>
+  	<module>theta-framework</module>
   </modules>
 </project>
