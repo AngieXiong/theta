@@ -16,5 +16,13 @@
                         http://www.springframework.org/schema/tx 
                         http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
     <!-- 设置使用注解的类所在的jar包 -->
-    <context:component-scan base-package="com.theta.framework.controller" />
+    <!-- <context:component-scan base-package="com.theta.framework.controller" /> -->
+	<mvc:annotation-driven/>
+	<context:annotation-config/>
+	<mvc:default-servlet-handler />
+    <context:component-scan base-package="com.theta.framework" />
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"> 
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/> 
+    </bean>
 </beans>
