@@ -10,6 +10,7 @@ public class HelloWorld {
 	@RequestMapping("/hello")
 	@ResponseBody
 	public String hello(){
+		System.out.println("...");
 		return "hello, world! It comes from spring-mvc!";
 	}
 }
