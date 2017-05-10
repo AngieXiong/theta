@@ -40,5 +40,6 @@
   </dependencies>
   <modules>
   	<module>theta-framework</module>
+  	<module>documents</module>
   </modules>
 </project>
