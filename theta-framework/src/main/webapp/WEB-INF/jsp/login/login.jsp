@@ -5,12 +5,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<!-- 引用css -->
+<!-- refer css files -->
 <link rel="stylesheet" type="text/css" href=""/>
 
-<!-- 引用js-->
+<!-- refer js files-->
 <script type="text/javascript" src="plugins/jquery1.11/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="plugins/bootstrap-3.3.7/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="plugins/bootstrap-3.3.7/bootstrap.min.js"></script>
 
 <title>login page</title>
 </head>
