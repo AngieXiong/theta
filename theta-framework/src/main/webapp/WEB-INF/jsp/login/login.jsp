@@ -1,20 +1,45 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<!-- refer css files -->
-<link rel="stylesheet" type="text/css" href=""/>
+<!-- 引用css -->
+<link rel="stylesheet" type="text/css" href="plugins/bootstrap-3.3.7/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="plugins/bootstrap-3.3.7/css/bootstrap-theme.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/login/login.css"/>
 
-<!-- refer js files-->
+<!-- 引用js-->
 <script type="text/javascript" src="plugins/jquery1.11/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="plugins/bootstrap-3.3.7/bootstrap.min.js"></script>
+<script type="text/javascript" src="plugins/bootstrap-3.3.7/js/bootstrap.min.js"></script>
 
-<title>login page</title>
+<title>user login</title>
 </head>
-<body>
-<p>this is login page!</p>
+<body class="content-center">
+<div class="navbar navbar-inverse navbar-fixed-top">
+</div>
+<div class="jumbotron masthead">
+    <div class="container mid-content">
+    	<div class="content-center">
+    		<img style="width:50px;height:50px;" src="images/logotypes/loginLogo.jpg" alt=""/>
+    	</div>
+        <div class="auth-form-body mt-3">
+        	<div class="content-left">
+            	<label for="">Sign in to Theta</label>
+        	</div>
+            <input class="form-control input-block" id="login_field_account" name="login" tabindex="1" type="text" placeholder="input your account here..."/>
+            <div class="content-left">
+            	<label for="password">Password</label>
+            	<a href="" class="label-link">Forgot password?</a>
+            </div>
+            <input class="form-control input-block" id="login_field_passwd" name="login" tabindex="1" type="text" placeholder="input your password here..."/>
+           
+            <input class="btn btn-primary btn-block" name="commit" tabindex="3" value="Sign in" type="submit">
+        </div>
+        <p class="create-account-callout mt-3 mid-font-family">
+            New to Theta?
+            <a href="" >Create an account</a>.
+          </p>
+    </div>
+</div>
 </body>
 </html>

@@ -12,7 +12,6 @@ public class HelloWorld {
 	@ResponseBody
 	public ModelAndView hello(){
 		ModelAndView mv = new ModelAndView("login/login");
-		System.out.println("...");
 		//return "hello, world! It comes from spring-mvc!";
 		return mv;
 	}
