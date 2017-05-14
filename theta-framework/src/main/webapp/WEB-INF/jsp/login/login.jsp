@@ -20,7 +20,7 @@
 <div class="jumbotron masthead">
     <div class="container mid-content">
     	<div class="content-center">
-    		<img style="width:50px;height:50px;" src="images/logotypes/loginLogo.jpg" alt=""/>
+    		<img style="width:50px;height:50px;" src="images/logotypes/loginLogo.png" alt=""/>
     	</div>
         <div class="auth-form-body mt-3">
         	<div class="content-left">
