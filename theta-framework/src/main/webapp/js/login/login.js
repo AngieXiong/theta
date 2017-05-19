@@ -26,6 +26,9 @@ var login = {
                		//location.reload(); 
                	}
                }
+            },
+            error:function(resp){
+            	
             }
         }).done(function(resp){
         	alert(resp);
