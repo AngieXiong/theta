@@ -56,3 +56,8 @@
         line-height: 1.5;
         color: #24292e;
      }
+     .navbar-inverse
+     {
+     	background-color: #cad8da !important;
+        border-color: #cad8da;
+     }
