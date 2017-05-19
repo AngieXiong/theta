@@ -5,6 +5,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.theta.framework.Entity.ResultResp;
 
@@ -13,6 +14,7 @@ import com.theta.framework.Entity.ResultResp;
 public class UserLoginController {
 	
 	@RequestMapping("/login")
+	@ResponseBody
 	public ResultResp login(HttpServletRequest request,HttpServletResponse response,String userId){
 		ResultResp resp = new ResultResp();
 		resp.setCode(ResultResp.SUCCESS);
