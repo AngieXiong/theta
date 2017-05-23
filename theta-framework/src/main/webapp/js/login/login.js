@@ -24,7 +24,7 @@ var login = {
                		//window.open(base_url+'theta-framework/userLogin/'+resp.msg);
                		var ctx = $('#ctx').val();
                		//window.location.href= ctx+'/'+resp.data;
-               		window.location.href=base_url+'theta-framework/index.jsp';
+               		window.location.href=base_url+'theta-framework/'+resp.data;
                	}
                	else{
                		// reload
