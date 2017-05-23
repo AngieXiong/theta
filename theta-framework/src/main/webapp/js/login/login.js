@@ -14,12 +14,17 @@ var login = {
 	            'userId':"aaa"
 			 },
             dataType: "json",
+            sync:'true',
             success: function(resp){
             	debugger;
                if(resp)
                {
-               	if(0!=resp.code){
-               		alert("login success");
+               	if(0==resp.code){
+               		//alert("login success");
+               		//window.open(base_url+'theta-framework/userLogin/'+resp.msg);
+               		var ctx = $('#ctx').val();
+               		//window.location.href= ctx+'/'+resp.data;
+               		window.location.href=base_url+'theta-framework/index.jsp';
                	}
                	else{
                		// reload
@@ -31,7 +36,7 @@ var login = {
             	
             }
         }).done(function(resp){
-        	alert(resp);
+        	//alert(resp);
        });
 	}
 }

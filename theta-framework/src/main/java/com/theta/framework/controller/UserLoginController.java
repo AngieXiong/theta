@@ -18,7 +18,7 @@ public class UserLoginController {
 	public ResultResp login(HttpServletRequest request,HttpServletResponse response,String userId){
 		ResultResp resp = new ResultResp();
 		resp.setCode(ResultResp.SUCCESS);
-		resp.setMsg("admin/admin");
+		resp.setData("admin/admin");
 		return resp;
 	}
 }
