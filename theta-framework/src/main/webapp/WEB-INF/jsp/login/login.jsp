@@ -19,7 +19,7 @@
 <body class="content-center">
 <div class="navbar-fixed-top"><!-- navbar navbar-inverse -->
 </div>
-<div class="jumbotron masthead">
+<div class="masthead">
     <div class="container mid-content">
     	<div class="content-center">
     		<img style="width:50px;height:50px;" src="images/logotypes/loginLogo.png" alt=""/>

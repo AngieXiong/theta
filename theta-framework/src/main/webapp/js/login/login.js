@@ -8,7 +8,7 @@ var login = {
 	signIn:function(){
 		$.ajax({
             type: "POST",
-            url: base_url+'theta-framework/userLogin/login',
+            url: base_url+'theta-platform/userLogin/login',
             data:
             {
 	            'userId':"aaa"
@@ -16,15 +16,11 @@ var login = {
             dataType: "json",
             sync:'true',
             success: function(resp){
-            	debugger;
                if(resp)
                {
                	if(0==resp.code){
-               		//alert("login success");
-               		//window.open(base_url+'theta-framework/userLogin/'+resp.msg);
                		var ctx = $('#ctx').val();
-               		//window.location.href= ctx+'/'+resp.data;
-               		window.location.href=base_url+'theta-framework/'+resp.data;
+               		window.location.href=base_url+'theta-platform/'+resp.data;
                	}
                	else{
                		// reload
@@ -36,7 +32,6 @@ var login = {
             	
             }
         }).done(function(resp){
-        	//alert(resp);
        });
 	}
 }

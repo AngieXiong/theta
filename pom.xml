@@ -65,7 +65,7 @@
 
 	</dependencies>
 	<modules>
-		<module>theta-framework</module>
+		<module>theta-platform</module>
 		<module>documents</module>
     <module>theta-platform</module>
   </modules>

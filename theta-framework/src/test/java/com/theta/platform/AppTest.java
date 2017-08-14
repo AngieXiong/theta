@@ -1,4 +1,4 @@
-package com.theta.framework;
+package com.theta.platform;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

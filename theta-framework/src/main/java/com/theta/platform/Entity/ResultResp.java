@@ -1,4 +1,4 @@
-package com.theta.framework.Entity;
+package com.theta.platform.Entity;
 
 public class ResultResp {
 	public final static int FAIL = -1;   //通用错误
